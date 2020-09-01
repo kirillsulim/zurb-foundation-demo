@@ -1,5 +1,8 @@
+import './style/foundation.scss';
 
+import 'foundation-sites/dist/js/foundation';
 import _ from 'lodash';
+import $ from 'jquery';
 
 
 function component() {
@@ -11,3 +14,4 @@ function component() {
 }
   
 document.body.appendChild(component());
+$(document).foundation();
